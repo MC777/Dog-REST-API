@@ -1,9 +1,6 @@
 package com.udacity.bootstrap.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Dog {
@@ -12,19 +9,19 @@ public class Dog {
     private Long id;
 
     private String name;
-    private String bread;
+    private String breed;
     private String origin;
 
-    public Dog(Long id, String name, String bread, String origin) {
+    public Dog(Long id, String name, String breed, String origin) {
         this.id = id;
         this.name = name;
-        this.bread = bread;
+        this.breed = breed;
         this.origin = origin;
     }
 
-    public Dog(String name, String bread) {
+    public Dog(String name, String breed) {
         this.name = name;
-        this.bread = bread;
+        this.breed = breed;
     }
 
     public Dog() {}
@@ -45,12 +42,12 @@ public class Dog {
         this.name = name;
     }
 
-    public String getBread() {
-        return bread;
+    public String getBreed() {
+        return breed;
     }
 
-    public void setBread(String bread) {
-        this.bread = bread;
+    public void setBreed(String breed) {
+        this.breed = breed;
     }
 
     public String getOrigin() {
