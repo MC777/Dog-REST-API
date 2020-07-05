@@ -1,4 +1,4 @@
-package com.udacity.bootstrap.entity;
+package com.udacity.dogrestapi.entity;
 
 import javax.persistence.*;
 

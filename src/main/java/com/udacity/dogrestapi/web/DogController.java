@@ -1,7 +1,7 @@
-package com.udacity.bootstrap.web;
+package com.udacity.dogrestapi.web;
 
-import com.udacity.bootstrap.entity.Dog;
-import com.udacity.bootstrap.service.DogService;
+import com.udacity.dogrestapi.entity.Dog;
+import com.udacity.dogrestapi.service.DogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

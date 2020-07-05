@@ -1,4 +1,4 @@
-package com.udacity.bootstrap.service;
+package com.udacity.dogrestapi.service;
 
 
 import org.springframework.http.HttpStatus;

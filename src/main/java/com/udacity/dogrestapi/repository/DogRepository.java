@@ -1,6 +1,6 @@
-package com.udacity.bootstrap.repository;
+package com.udacity.dogrestapi.repository;
 
-import com.udacity.bootstrap.entity.Dog;
+import com.udacity.dogrestapi.entity.Dog;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
